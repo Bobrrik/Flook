@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Flook</string>
+    <string name="disclaimer">какая ссылка https://t.me/Vesoluy_tip</string>
+    <string name="TextLittle"> Текст Текст </string>
+    <string name="TextMidl">Текст Текст Текст Текст Текст Текст Текст Текст  </string>
+    <string name="TextBig"> Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст   </string>
+    <string name="Meni">Меню</string>
+    <string name="Beast">Избранное</string>
+    <string name="LookLeyter">Смотреть позже</string>
+    <string name="Podporki">Подборки</string>
+    <string name="Seting">Настройки</string>
+
 </resources>
