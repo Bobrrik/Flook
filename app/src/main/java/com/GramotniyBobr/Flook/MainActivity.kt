@@ -1,9 +1,6 @@
 package com.GramotniyBobr.Flook
 
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -18,11 +15,6 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-
         }
     }
-
-    fun Clik(view: View) {
-        val b = view as Button
-   return Toast.makeText(this, b.text.toString() , Toast.LENGTH_SHORT).show() }
 }
