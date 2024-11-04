@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="@string/Beast"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/later"
+        android:icon="@drawable/baseline_access_time_filled_24"
+        android:title="@string/LookLater"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/filter"
+        android:icon="@drawable/baseline_filter_24"
+        android:title="@string/Podporki"
+        app:showAsAction="ifRoom" />
+</menu>
