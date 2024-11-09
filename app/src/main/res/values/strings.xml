@@ -6,8 +6,8 @@
     <string name="TextBig"> Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст   </string>
     <string name="Meni">Меню</string>
     <string name="Beast">Избранное</string>
-    <string name="LookLeyter">Смотреть позже</string>
+    <string name="LookLater">Смотреть позже</string>
     <string name="Podporki">Подборки</string>
-    <string name="Seting">Настройки</string>
+    <string name="Setting">Настройки</string>
 
 </resources>

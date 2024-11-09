@@ -1,28 +1,31 @@
 package com.GramotniyBobr.Flook
 
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.GramotniyBobr.Flook.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
+    lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
+        binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-
+        setContentView(binding.root)
+        binding.TopToolBar.setOnMenuItemClickListener {
+            Tost()
+            true
+        }
+        binding.TopToolBar.setNavigationOnClickListener {
+            Tost()
+        }
+        binding.botContainer.setOnClickListener {
+            Tost()
+         //   var name : String = this.binding.toString()
         }
     }
 
-    fun Clik(view: View) {
-        val b = view as Button
-   return Toast.makeText(this, b.text.toString() , Toast.LENGTH_SHORT).show() }
+    fun Tost() {//name :String
+        Toast.makeText(this, "Текст в разработке", Toast.LENGTH_SHORT).show()
+    }
 }
